@@ -1,0 +1,127 @@
+
+        body{
+            width: 100%;
+        height: 500px;
+        background: #ed213a;
+        background: -webkit-linear-gradient(to right, grey, black); 
+        background: linear-gradient(to right,  grey, black); 
+        }
+
+        /*Menú*/
+
+        .carrito{
+    top:5px;
+    width:25px;
+}
+
+.login{
+    top:5px;
+    width:25px;
+    height: 25px;
+}
+
+        nav{
+            text-align: right;
+            padding: 30px 50px 0 0;
+        }
+        
+        nav > a{
+            color:#fff;
+            font-weight: 300;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+        header .textos-header{
+            display: flex;
+            height: 100px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .textos-header h1{
+            font-size: 40px;
+            color:#fff;
+        }
+
+            /*Fin Menú*/
+
+            /*Formulario*/
+    .formulario {
+    position: relative;
+    width: 500px;
+    height: 420px;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    margin-top:200px;
+}
+
+            /*Fin Formulario*/
+
+            /*Footer*/
+
+ .Contacto{
+    width: 25px;
+}
+
+.Celular{
+    width: 20px;
+}
+
+.Email{
+    width: 25px;
+}
+
+     footer{
+    padding: 60px 0 30px 0;
+}
+
+.contenedor-footer{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    top:650px;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #dd1818;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin:-50px 0px;
+    color: #9e9797;
+}
+
+@media screen and (max-width:900px){header{background-position: center;
+    }
+}
+.contactoyoutube{
+    width: 30px;
+}
+            /*Fin Footer*/

@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: #333;
+    color:#F3E7E4 ;
+    padding: 1.5rem 0;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.4em;
+}
+
+.header a{
+    color: #F3E7E4;
+    text-decoration: none;
+
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display:inline-block;
+}
+
+.navigation ul li a{
+    display:block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+   background-color: #5B5958;
+}
+
+@media screen and (max-width:900px){
+
+    body{
+        width: 100%;
+    }
+
+    header{
+        background-position: center;
+    }
+
+    section{
+        height:900px;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+}
+
+
+main{
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+section{
+    height:800px;
+    min-width: 400px;
+    margin-bottom: 10%;
+}
+
+#sectionUno{
+    background:url(../img/sectionUno.jpg);
+    background-size: cover;
+
+}
+
+.texto{
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+
+
+#ima1{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+.parteUno{
+    float: left;
+    padding-left: 10%;
+}
+
+#descripcion{
+    width: 20px;
+    height: auto;
+}
+.parteDos{
+    padding-left:35%;
+    
+}
+
+
+.len{
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom:5%;
+    width: 10%;
+    height: 10%;
+}
+
+i{
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+#js{
+    width: 60px;
+    height: 60px;
+}
+
+#ml{
+    width: 60px;
+    height: 60px;
+}
+
+#cs{
+    width: 60px;
+    height: 60px;
+}
+
+#ja{
+    width: 60px;
+    height: 60px;
+}
+
+.progress{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.por{
+    margin-left: 2%;
+}
+
+.estu{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+
+.esco{
+    margin-left:5%;
+    float: left;
+
+}
+
+.tec{
+    margin-left:15%;
+    float: right;
+}
+
+.buton-1{
+    padding-left:5%;
+    margin-top: 3%;
+    
+}
+
+.descarga{
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.contenido{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 70px;
+
+}
+
+#portafolio{
+    margin-left:150px;
+    margin-right: 150px;
+    padding-top: 50px;
+}
+
+.proyecto{
+    padding-bottom: 50px;
+}
+
+.info_1{
+    padding-top:20px;
+    float:right;
+    margin-left: 10%;
+}
+
+#ht{
+
+    margin-top: 15%;
+    margin-left: 15%;
+    width:90px;
+    height:90px;
+}
+
+#sectionCuatro{
+    background:url(../img/contacto.jpg);
+    background-size: cover;
+
+}
+
+#form{
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 30%;
+    height: 60%;
+    margin-top:10%;
+    padding-top: 3%;
+}
+
+
+.footer{
+    height:100px;
+}
+
+.contacto{
+    margin-left:40%;
+    margin-right: 40%;
+
+}
+
+.titulo-contacto{
+    margin-right: 40%;
+    margin-bottom: 10%;
+    padding-bottom:10%;
+  
+}
+
+.int_1{
+    margin-left: 10%;
+    float: left;
+}
+
+#twi{
+    width: 120px;
+    height: 120px;
+}
+
+#fa{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
